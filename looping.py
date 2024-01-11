@@ -76,6 +76,7 @@ while i <= 20:
 """
 
 
+"""
 # Use 1 while loop and 3 for loops
 # 4 spaces : 1 hash
 # 3 spaces : 3 hashes
@@ -121,3 +122,4 @@ while tree_height != 0:
 for i in range(stump_spaces):
     print(' ', end="")
 print('#')
+"""
