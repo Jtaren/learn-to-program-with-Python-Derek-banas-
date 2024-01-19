@@ -46,4 +46,5 @@ class Animal:
 
         def __str__(self):
             return super().__str__() + " and it is {} they nurse"\ "there young".format(self.nurseYoung)
-
+class Reptile(Animal):
+    def __init__(self, birthType="born in an egg or born alive", appearance="dry scales", blooded="cold blooded")
