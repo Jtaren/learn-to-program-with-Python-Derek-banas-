@@ -1,9 +1,9 @@
 import os
 
-with open("mydata.txt", mode="w", encoding="utf-8") as myFile:
+with open("mydata2.txt", mode="w", encoding="utf-8") as myFile:
     myFile.write("Some random text\nMore random text\nAnd some more")
 
-with open("mydata.txt", encoding="utf-8") as myFile:
+with open("mydata2.txt", encoding="utf-8") as myFile:
 # read() readline() readlines():
     print(myFile.read())
 
