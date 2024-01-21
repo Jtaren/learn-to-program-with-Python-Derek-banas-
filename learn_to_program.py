@@ -45,6 +45,7 @@ kilometers = miles * 1.60934
 print("{} miles equals {} kilometers".format(miles, kilometers))
 """
 
+
 """
 # Enter calculation: 5 * 6
 # 5 * 6 = 30
@@ -90,6 +91,7 @@ else:
     print("Sorry, Not Important")
 """
 
+"""
 # if age is 5 go to kindergarten.
 # Ages 6 through 17 goes to grades 1 through 12.
 # If age is greater then 17 say go to college.
@@ -111,3 +113,4 @@ elif (age > 5) and (age <= 17):
 # handle everyone else
 else:
     print("Go to College")
+"""
