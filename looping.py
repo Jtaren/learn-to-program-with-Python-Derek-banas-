@@ -123,3 +123,7 @@ for i in range(stump_spaces):
     print(' ', end="")
 print('#')
 """
+
+for i in range(20):
+    if(i % 2) == 0:
+        print(i)
