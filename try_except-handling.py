@@ -120,7 +120,7 @@ secret_string = ""
 # Cycle through each character in the string
 for char in norm_string:
 # Store each character code in a new string
-    secret_string += str(ord(char))
+    secret_string += str(ord(char) - 23)
 # Print "Secret Message : 56349078"
 print("Secret Message : ", secret_string)
 # Cycle through each character code 2 at a time by incrementing by 2 each time
