@@ -1,10 +1,15 @@
 """
 # Ask the user to input their name and assign it to a variable named name.
-name = input('What is your name')
+name = input('What is your name? ' )
 # Print out hello followed by the name they entered
 print('Hello', name)
 """
 
+# You can't use the following for variable names
+# and, del, from, not, while, as, elif, global, or,
+# with, assert, else, if, pass, yield, break, except,
+# import, print, class, exec, in, raise, continue,
+# finally, is, return, def, for, lambda, try
 """
 # Ask the user to input 2 values and store them in variables num1, num2.
 num1, num2 = input('Enter 2 numbers: ' ).split()
@@ -36,7 +41,7 @@ print("{} % {} = {}".format(num1, num2, remainder))
 # 5 miles equals 8.04 kilometers
 
 # Ask the user to input miles and assign it to the miles variable
-miles = input('Enter miles ')
+miles = input('Enter miles: ')
 # Convert from string to integer
 miles = int(miles)
 # Perform calculation by multiplying 1.60934 times miles
@@ -66,15 +71,13 @@ elif operator == "*":
     print("{} - {} = {}".format(num1, num2, num1-num2))
 else:
     print("use either + - * or / next time")
-# print the result
 """
 
+"""
 # we'll provide different output based on age
 # 1 - 18  --> important
 # 21, 50, --> important
 # All others --> Not important
-
-"""
 # Receive age and store in age
 age = eval(input('Enter age: '))
 # If age is both greater than or equal to 1 and less than or equal to 18 important
