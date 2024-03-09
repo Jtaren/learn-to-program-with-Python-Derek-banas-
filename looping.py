@@ -15,10 +15,11 @@ print((i % 2) == 0)
 # Use for loop through the list from 1 to 21
 for y in range(2, 21):
 # Use modulus to check that the result is NOT EQUAL to 0.
-    if ((y % 2) != 0):
+   if ((y % 2) != 0):
 # Print the odds
         print("y = ", y)
 """
+
 
 """
 your_float = input("Enter a float: ")
@@ -76,7 +77,12 @@ while i <= 20:
 """
 
 
-"""
+    #
+   ###
+  #####
+ #######
+#########
+    #
 # Use 1 while loop and 3 for loops
 # 4 spaces : 1 hash
 # 3 spaces : 3 hashes
@@ -109,7 +115,7 @@ while tree_height != 0:
         print(' ', end="")
 # print the hashes
     for i in range(hashes):
-        print('*', end="")
+        print('#', end="")
 # Newline after each row is printed
     print()
 # That spaces is decremented by 1 each time
@@ -122,8 +128,11 @@ while tree_height != 0:
 for i in range(stump_spaces):
     print(' ', end="")
 print('#')
-"""
 
+
+
+"""
 for i in range(20):
     if(i % 2) == 0:
         print(i)
+"""
